@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+      function greet(){
+        let n=document.querySelector("#name").value;
+        if(n==='' || n==="type name here"){
+          n="type your name please";
+          alert(n);
+
+        }else{
+          document.querySelector("#result").innerHTML='Hello, '+n+"!"
+        }
+
+      }
+
+    </script>
+  </head>
+  <body>
+    <form onsubmit="greet(); return false">
+      <input type="text" value="type name here" id="name">
+      <input type="submit" value="Say Hi!" >
+    </form>
+    <div class="" id="result">
+      
+
+    </div>
+  </body>
+</html>

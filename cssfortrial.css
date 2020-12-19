@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#d0e8f2;
+
+}
+  header{
+    background:black;
+           color:white;
+           padding:20px;
+
+}
+a{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+
+}
+a:hover{
+  color:#ffa45b;
+}
+section{
+  background:#f1f1f1;
+  color: black;
+}
+footer{
+  background: black;
+  color: white;
+}
+ul{
+          margin:0;
+          padding:0;
+          list-style-type:none;
+}
+
+li{
+  display:inline-block;
+  padding: 20px;
+
+}
+.about_arm{
+  height: 500px;
+  margin:0
+}
+
+.Ardop_arm{
+  height:500px;
+
+}
+.check{
+  background-color: black;
+  width:1450px;
+
+
+}
+.check2{
+  background-color: black;
+
+}
+h1{
+  text-align:center;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h2{
+  color:#cfd3ce;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-top: 40px;
+  padding-top:50px;
+}
+
+.about_arm{
+  background-color:#d0e8f2;
+
+}
+
+.image1{
+height:498px;
+margin-left: 30px;
+margin-top: 20px;
+
+}
+
+.p1{
+  font-size: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.liblock{
+  display:block;
+  font-size: 15px;
+
+}
+.info_arm{
+  background-color:#456268;
+  margin-top: 0;
+  padding: 0;
+
+}
+.image2{
+  margin-right: 40px;
+  margin-bottom: 120px;
+
+}
+
+.content1{
+
+}

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+  header{
+    background:#79a3b1;
+           color:white;
+           padding:20px;
+
+}
+ul{
+          margin:0;
+          padding:0;
+          list-style-type:none;
+}
+
+li{
+  display:inline-block;
+  padding: 20px;
+
+}
+h2{
+  text-align: center;
+}
+.search{
+  background: #456268;
+  height: 600px;
+  padding:30px;
+}
+.form{
+
+  background: #456268;
+}
+.text{
+  margin-left: 700px;
+  height:50px;
+  width:300px;
+}
+.submit_button{
+  height:52px;
+
+}
+.li2{
+  display: block;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
